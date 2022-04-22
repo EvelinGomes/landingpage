@@ -4,12 +4,8 @@
 }
 
 body {
-	background: #3A3A3A;
-}
-
-.borda {
 	clear: both;
-	border-bottom: 3px solid #B7B7B7;
+	background: #3A3A3A;
 }
 
 img#logo {
@@ -18,6 +14,18 @@ img#logo {
 	width: 120px;
 	height: 32px;
 	float: left;
+}
+
+h1 {
+	width: 120px;
+	height: 32px;
+	margin-left: 20px;
+	margin-top: 0;
+	float: left;
+	font-family: X360;
+	letter-spacing: 35px;
+	text-transform: uppercase;
+	color: #B7B7B7;
 }
 
 ul {
@@ -45,20 +53,30 @@ a:hover {
 	padding: 5px 5px;
 }
 
-h1 {
-	width: 120px;
-	height: 32px;
-	margin-left: 20px;
-	margin-top: 0;
-	float: left;
-	font-family: X360;
-	letter-spacing: 35px;
-	text-transform: uppercase;
-	color: #B7B7B7;
-}
-
 nav {
 	float: right;
+}
+
+.borda {
+	clear: both;
+	border-bottom: 3px solid #B7B7B7;
+}
+
+.imagem {
+	background: url(imagens/fundo1.png) no-repeat;
+	width: 1333px;
+	height: 887px;
+}
+
+.descricao {
+	font-size: 20px;
+	font-family: X360;
+	padding-left: 100px;
+	padding-top: 140px;
+	position: absolute;
+    color:#000;
+    text-align: center;
+    width: 500px;
 }
 
 footer {
@@ -68,4 +86,5 @@ footer {
 	background: #D8D8D8;
 	padding: 0.1em;
 	width: 100%;
+	margin-top: 5px;
 }
