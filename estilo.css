@@ -6,6 +6,9 @@
 body {
 	clear: both;
 	background: #3A3A3A;
+	max-width: 1440px;
+	max-height: 1024px;
+	position: absolute;
 }
 
 img#logo {
@@ -79,12 +82,97 @@ nav {
     width: 500px;
 }
 
-footer {
+.jogo {
+	padding-left: 40px;
+	padding-top: 500px;
+	position: absolute;
+    width: 500px;
+}
+
+.jogo h3 {
+	padding-left: 40px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	font-family: X360;
+	font-size: 20px;
+	color:#000;
+}
+
+.jogo2 {
+	padding-left: 300px;
+	padding-top: 500px;
+	position: absolute;
+    width: 500px;
+}
+
+.jogo2 h3 {
+	padding-left: 560px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	font-family: X360;
+	font-size: 20px;
+	color:#000;
+}
+
+.jogo3 {
+	padding-left: 560px;
+	padding-top: 500px;
+	position: absolute;
+    width: 500px;
+}
+
+.jogo3 h3 {
+	padding-left: 300px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	font-family: X360;
+	font-size: 20px;
+	color:#000;
+}
+
+.jogo4 {
+	padding-left: 820px;
+	padding-top: 500px;
+	position: absolute;
+    width: 500px;
+}
+
+.jogo4 h3 {
+	padding-left: 300px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	font-family: X360;
+	font-size: 20px;
+	color:#000;
+}
+
+.jogo5 {
+	padding-left: 1080px;
+	padding-top: 500px;
+	position: absolute;
+    width: 500px;
+}
+
+.jogo5 h3 {
+	padding-left: 300px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	font-family: X360;
+	font-size: 20px;
+	color:#000;
+}
+
+/*footer {
 	clear: both;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	background: #D8D8D8;
 	padding: 0.1em;
 	width: 100%;
-	margin-top: 5px;
+	margin-top: 5px;*/
 }
