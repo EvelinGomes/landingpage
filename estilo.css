@@ -1,0 +1,71 @@
+@font-face {
+	font-family: X360;
+	src: url("fontes/X360.ttf");
+}
+
+body {
+	background: #3A3A3A;
+}
+
+.borda {
+	clear: both;
+	border-bottom: 3px solid #B7B7B7;
+}
+
+img#logo {
+	margin-top: 5px;
+	margin-left: 30px;
+	width: 120px;
+	height: 32px;
+	float: left;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	display: block;
+	text-decoration: none;
+	color: #B7B7B7;
+	font-family: X360;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-right: 60px;
+}
+
+a:hover {
+	background: #107C10;
+	padding: 5px 5px;
+}
+
+h1 {
+	width: 120px;
+	height: 32px;
+	margin-left: 20px;
+	margin-top: 0;
+	float: left;
+	font-family: X360;
+	letter-spacing: 35px;
+	text-transform: uppercase;
+	color: #B7B7B7;
+}
+
+nav {
+	float: right;
+}
+
+footer {
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: #D8D8D8;
+	padding: 0.1em;
+	width: 100%;
+}
