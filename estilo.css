@@ -9,6 +9,7 @@ body {
 	max-width: 1440px;
 	max-height: 1024px;
 	position: absolute;
+	overflow-x: hidden;
 }
 
 img#logo {
